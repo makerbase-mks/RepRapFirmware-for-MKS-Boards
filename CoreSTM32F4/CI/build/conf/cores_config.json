@@ -1,0 +1,272 @@
+{
+  "cores": [
+    {
+      "maintainer": "STM32",
+      "architecture": "stm32",
+      "boards": [
+        {
+          "name": "NUCLEO_L031K6",
+          "options": "opt=oslto"
+        },
+        {
+          "name": "STEVAL_MKSBOX1V1",
+          "options": "usb=CDCgen"
+        }
+      ],
+      "sketches": [
+        {
+          "pattern": "^((?!BareMinimum.ino).)*$",
+          "applicable": false,
+          "boards": [ "DEMO_F030F4", "DEMO_F030F4_16M", "DEMO_F030F4_HSI" ]
+        },
+        {
+          "pattern": "DISCO_IOT_|M24SR64-Y|MX25R6435F",
+          "applicable": true,
+          "boards": [ "DISCO_L475VG_IOT" ]
+        },
+        {
+          "pattern": "SPBTLE_BeaconDemo.ino|SPBTLE_SensorDemo.ino|BTLE_sensors_TimeOfFlight_demo.ino",
+          "applicable": true,
+          "boards": [ "DISCO_L475VG_IOT" ]
+        },
+        {
+          "pattern": "STM32Ethernet|Ethernet_MQTT_Adafruit.io.ino|Hello_stm32",
+          "applicable": true,
+          "boards": [ "NUCLEO_F429ZI", "DISCO_F746NG" ]
+        },
+        {
+          "pattern": "ISM43362-M3G-L44|WiFi_MQTT_Adafruit.io.ino|mqtt_B-L475E-IOT01A.ino",
+          "applicable": true,
+          "boards": [ "DISCO_L475VG_IOT" ]
+        },
+        {
+          "pattern": "ExternalWakeup.ino|BleSensors_SensiBLE|NucleoCar",
+          "applicable": false,
+          "boards": [
+            "AFROFLIGHT_F103CB",
+            "AFROFLIGHT_F103CB_12M",
+            "ARMED_V1",
+            "BLUE_F407VE_Mini",
+            "BLACKPILL_F103C8",
+            "BLACKPILL_F103C8B",
+            "BLUEPILL_F103C6",
+            "BLUEPILL_F103C8",
+            "BLUEPILL_F103C8B",
+            "BLACKPILL_F303CC",
+            "BLACKPILL_F401CC",
+            "CoreBoard_F401RC",
+            "DIYMORE_F407VGT",
+            "EEXTR_F030_V1",
+            "Generic_F103R8T6",
+            "Generic_F103RBT6",
+            "Generic_F103RCT6",
+            "Generic_F103RET6",
+            "HY_TinySTM103TB",
+            "MALYANM200_F070CB",
+            "MALYANM200_F103CB",
+            "MAPLEMINI_F103CB",
+            "NUCLEO_L031K6",
+            "NUCLEO_L412KB",
+            "NUCLEO_L432KC",
+            "NUCLEO_F303K8",
+            "NUCLEO_G431KB",
+            "PRNTR_F407_V1",
+            "RUMBA32",
+            "RAK811_TRACKER",
+            "RAK811_TRACKERA",
+            "REMRAM_V1",
+            "Sparky_V1"
+          ]
+        },
+        {
+          "pattern": "04.Communication/(Multi)?Serial(Passthrough)?",
+          "applicable": true,
+          "boards": [ "" ]
+        },
+        {
+          "pattern": "eepromReadWrite|eepromTest_Wire1|p13_TouchSensorLamp|mqtt_large_message",
+          "applicable": true,
+          "boards": [ "" ]
+        },
+        {
+          "pattern": "Firmata/",
+          "applicable": false,
+          "boards": [ "BLUEPILL_F103C6", "EEXTR_F030_V1", "MALYANM200_F103CB", "STEVAL_MKSBOX1V1", "VAKE_F446VE" ]
+        },
+        {
+          "pattern": "Blink(WithoutDelay)?.ino",
+          "applicable": false,
+          "boards": [ "EEXTR_F030_V1", "MALYANM200_F103CB" ]
+        },
+        {
+          "pattern": "STM32SD",
+          "applicable": true,
+          "boards": [ "DISCO_F746NG", "BLACK_F407VE", "BLUE_F407VE_Mini" ]
+        },
+        {
+          "pattern": "Ethernet/|STM32FreeRTOS",
+          "applicable": false,
+          "boards": [ "BLUEPILL_F103C6", "EEXTR_F030_V1", "MALYANM200_F103CB", "NUCLEO_F030R8", "NUCLEO_L031K6" ]
+        },
+        {
+          "pattern": "09.USB",
+          "applicable": true,
+          "boards": [
+            "BLUEPILL_F103C8",
+            "BLACKPILL_F303CC",
+            "BLACK_F407VE",
+            "MAPLEMINI_F103CB",
+            "NUCLEO_F207ZG",
+            "NUCLEO_F429ZI",
+            "NUCLEO_L496ZG-P",
+            "NUCLEO_L4R5ZI-P",
+            "NUCLEO_H743ZI",
+            "DISCO_F072RB",
+            "DISCO_F407VG",
+            "DISCO_F746NG",
+            "DISCO_L072CZ_LRWAN1",
+            "DISCO_L475VG_IOT"
+          ],
+          "options": "usb=HID"
+        },
+        {
+          "pattern": "X_NUCLEO_IDB05A1_HelloWorld.ino",
+          "applicable": false,
+          "boards": [
+            "AFROFLIGHT_F103CB",
+            "AFROFLIGHT_F103CB_12M",
+            "ARMED_V1",
+            "BLACKPILL_F103C8",
+            "BLACKPILL_F103C8B",
+            "BLUEPILL_F103C6",
+            "BLUEPILL_F103C8",
+            "BLUEPILL_F103C8B",
+            "BLACKPILL_F303CC",
+            "BLACKPILL_F401CC",
+            "BLUE_F407VE_Mini",
+            "CoreBoard_F401RC",
+            "DIYMORE_F407VGT",
+            "EEXTR_F030_V1",
+            "Generic_F103R8T6",
+            "Generic_F103RBT6",
+            "Generic_F103RCT6",
+            "Generic_F103RET6",
+            "HY_TinySTM103TB",
+            "MALYANM200_F070CB",
+            "MALYANM200_F103CB",
+            "MAPLEMINI_F103CB",
+            "NUCLEO_F303K8",
+            "NUCLEO_G431KB",
+            "NUCLEO_L412KB",
+            "NUCLEO_L432KC",
+            "PRNTR_F407_V1",
+            "RUMBA32",
+            "Sparky_V1"
+          ]
+        },
+        {
+          "pattern": "X_NUCLEO_NFC03A1_HelloWorld.ino",
+          "applicable": false,
+          "boards": [
+            "DISCO_F030R8",
+            "DISCO_F100RB",
+            "NUCLEO_F030R8",
+            "NUCLEO_L053R8"
+          ]
+        },
+        {
+          "pattern": "X_NUCLEO_|FP_Examples",
+          "applicable": false,
+          "boards": [
+            "ARMED_V1",
+            "BLUEPILL_F103C6", 
+            "EEXTR_F030_V1",
+            "MALYANM200_F103CB",
+            "NUCLEO_L031K6",
+            "RAK811_TRACKER",
+            "RAK811_TRACKERA",
+            "REMRAM_V1",
+            "STEVAL_MKSBOX1V1"
+          ]
+        },
+        {
+          "pattern": "StringComparisonOperators.ino",
+          "applicable": false,
+          "boards": [
+            "ARMED_V1",
+            "EEXTR_F030_V1",
+            "RAK811_TRACKER",
+            "RAK811_TRACKERA",
+            "REMRAM_V1",
+            "STEVAL_MKSBOX1V1"
+          ]
+        },
+        {
+          "pattern": "ADXL3xx.ino",
+          "applicable": false,
+          "boards": [
+            "ARMED_V1",
+            "EEXTR_F030_V1",
+            "RAK811_TRACKER",
+            "RAK811_TRACKERA",
+            "STEVAL_MKSBOX1V1"
+          ]
+        },
+        {
+          "pattern": "SerialLoop.ino|Tests_basic_functions.ino",
+          "applicable": false,
+          "boards": [ "BLUEPILL_F103C6", "NUCLEO_L031K6" ]
+        },
+        {
+          "pattern": "(Alarm)?TimedWak(e)?up|SerialDeepSleep",
+          "applicable": false,
+          "boards": [ "EEXTR_F030_V1", "MALYANM200_F103CB", "STEVAL_MKSBOX1V1" ]
+        },
+        {
+          "pattern": "ArduinoISP",
+          "applicable": true,
+          "boards": [ "" ]
+        },
+        {
+          "pattern": "tone|p07_Keyboard",
+          "applicable": false,
+          "boards": [
+            "ST3DP001_EVAL",
+            "STEVAL_MKSBOX1V1",
+            "VAKE_F446VE"
+          ]
+        }
+      ]
+    },
+    {
+      "maintainer": "Arduino_STM32",
+      "architecture": "STM32F1",
+      "boards": [
+        {
+          "name": "mapleMini",
+          "options": "bootloader_version=original,cpu_speed=speed_72mhz"
+        }
+      ],
+      "sketches": [
+        {
+          "pattern": "sketchbook",
+          "applicable": true,
+          "boards": [ "" ]
+        }
+      ]
+    },
+    {
+      "maintainer": "Arduino_STM32",
+      "architecture": "STM32F4",
+      "boards": [
+      ],
+      "sketches": [
+        {
+          "pattern": "",
+          "applicable": false,
+          "boards": [ "netduino2plus" ]
+        }
+      ]
+    }
+  ]
+}
