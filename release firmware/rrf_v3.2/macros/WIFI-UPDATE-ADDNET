@@ -1,0 +1,9 @@
+;Update wifi firmware
+M588 S"MAKERBASE3D"
+M552 S0
+M997 S1
+M552 S0
+G4 S2
+M587 S"MAKERBASE3D" P"makerbase3d"
+G4 S1
+M552 S1
