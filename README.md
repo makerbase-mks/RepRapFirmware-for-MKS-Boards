@@ -16,23 +16,23 @@ Copy all the [released files and folders](https://github.com/makerbase-mks/RepRa
 ## Wifi firmware update and wifi configuration
 1. make sure that the wifi firmware "DuetWiFiServer.bin" is in the firmware folder of TF card. Use the Pronterface or other host on PC to connect to the motherboard, and then send the command:
  
-``` M997 S1 ```
+   ``` M997 S1 ```
 
 to update the wifi firmware. The firmware update process will display the update progress on the Pronterface.
 
-3. Wifi name and wifi password settings, send the command :
+2. Wifi name and wifi password settings, send the command :
 
-``` M587 S "wifi name" P "wifi password" ```
+   ``` M587 S "wifi name" P "wifi password" ```
 
 Modify wifi name and wifi password according to your actual situation.
 
-4. Wfi IP query, the host computer sends instructions:
+3. Wfi IP query, the host computer sends instructions:
 
-``` M552 S1 ```
+   ``` M552 S1 ```
 
-5. Web page control connection, enter the IP in the browser to login
+4. Web page control connection, enter the IP in the browser to login
 
-6. Enter the login password, which is set in the configuration file: release firmware/rrf_v3.2/sys/config.g
+5. Enter the login password, which is set in the configuration file: release firmware/rrf_v3.2/sys/config.g
 
 For more usage and configuration, please refer to the [Using Manual](https://github.com/makerbase-mks/RepRapFirmware-for-MKS-Boards/blob/main/MKS%20Robin%20nano%20V3%20use%20RRF%20firmware%20manual.pdf).
 
