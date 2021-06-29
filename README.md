@@ -14,9 +14,7 @@ Copy all the [booloader files](https://github.com/makerbase-mks/RepRapFirmware-f
 Copy all the [released files and folders](https://github.com/makerbase-mks/RepRapFirmware-for-MKS-Boards/tree/main/release%20firmware/rrf_v3.2) to the TF card, then power on until the “FAN1” light on the motherboard flashes, which means update RRF firmware complete.
 
 ## Wifi firmware update and wifi configuration
-1. On the step of Update mainboard RRF firmware, you need to make sure that the wifi firmware DuetWiFiServer.bin is inside the firmware folder, the wifi firmware will be updated automatically.
-
-2. Use the Pronterface or other host on PC to connect to the motherboard, and then send the command:
+1. make sure that the wifi firmware "DuetWiFiServer.bin" is in the firmware folder of TF card. Use the Pronterface or other host on PC to connect to the motherboard, and then send the command:
  
 ``` M997 S1 ```
 
