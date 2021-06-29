@@ -17,20 +17,20 @@ Copy all the [released files and folders](https://github.com/makerbase-mks/RepRa
 1. On the step of Update mainboard RRF firmware, you need to make sure that the wifi firmware DuetWiFiServer.bin is inside the firmware folder, the wifi firmware will be updated automatically.
 
 2. Use the Pronterface or other host on PC to connect to the motherboard, and then send the command:
-
-```M997 S1```
+ 
+``` M997 S1 ```
 
 to update the wifi firmware. The firmware update process will display the update progress on the Pronterface.
 
 3. Wifi name and wifi password settings, send the command :
 
-```M587 S "wifi name" P "wifi password"```
+``` M587 S "wifi name" P "wifi password" ```
 
 Modify wifi name and wifi password according to your actual situation.
 
 4. Wfi IP query, the host computer sends instructions:
 
-```M552 S1```
+``` M552 S1 ```
 
 5. Web page control connection, enter the IP in the browser to login
 
