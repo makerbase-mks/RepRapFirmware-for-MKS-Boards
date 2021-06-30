@@ -34,5 +34,5 @@ Modify wifi name and wifi password according to your actual situation.
 
 5. Enter the login password, which is set in the configuration file: release firmware/rrf_v3.2/sys/config.g
 
-For more usage and configuration, please refer to the [Using Manual](https://github.com/makerbase-mks/RepRapFirmware-for-MKS-Boards/blob/main/MKS%20Robin%20nano%20V3%20use%20RRF%20firmware%20manual.pdf).
+For more usage and configuration, please refer to the [WIKI](https://github.com/makerbase-mks/RepRapFirmware-for-MKS-Boards/wiki) or [Using Manual](https://github.com/makerbase-mks/RepRapFirmware-for-MKS-Boards/blob/main/MKS%20Robin%20nano%20V3%20use%20RRF%20firmware%20manual.pdf).
 
