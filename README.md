@@ -36,3 +36,12 @@ Modify wifi name and wifi password according to your actual situation.
 
 For more usage and configuration, please refer to the [WIKI](https://github.com/makerbase-mks/RepRapFirmware-for-MKS-Boards/wiki) or [Using Manual](https://github.com/makerbase-mks/RepRapFirmware-for-MKS-Boards/blob/main/MKS%20Robin%20nano%20V3%20use%20RRF%20firmware%20manual.pdf).
 
+## Note
+- Thank you for using MKS products. If you have any questions during use, please contact us in time and we will work with you to solve it.
+- For more product dynamic information and tutorial materials, you can always follow MKS's Facebook/Twitter/Discord/Reddit/Youtube and Github. Thank you!
+- MKS Github: https://github.com/makerbase-mks  
+- MKS Facebook: https://www.facebook.com/Makerbase.mks/  
+- MKS Twitter: https://twitter.com/home?lang=en  
+- MKS Discord: https://discord.gg/4uar57NEyU
+- MKS Reddit: https://www.reddit.com/user/MAKERBASE-TEAM/ 
+![mks_link](https://user-images.githubusercontent.com/12979070/149612403-a1562b4f-73e4-40d9-8e5f-5fe4894b7ef2.png)
